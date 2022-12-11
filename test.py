@@ -1,5 +1,15 @@
-print("Test file")
-print(5+4)
-a = 5
-b = 6
-print (a + b)
+# import libraries
+
+import os
+
+import re
+
+#open text file
+
+file = open('test.txt', 'r')
+
+file_contents = file.read()
+
+print (file_contents)
+
+file.close()
